@@ -10,7 +10,7 @@
 /*
 *  This is a list of functions we need to use.
 *  1. Create an integer variable:
-*        int integerName = 0;
+*        int integerName = 0; 
 *  2. Collect user input from a dialog:
 *       String userInput = JOptionPane.showInputDialog("your message");
 *  3. Print out a message using a message dialog: 
@@ -46,20 +46,28 @@ public class NumberGuessGame {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int integername = 0;
-    int minimum = 0;
+        int integername = 0; 
+    int minimum = 0; 
     int maximum = 10;
     String userInput = JOptionPane.showInputDialog("Guess a number between 0 and 10");
     
     /*System.out.println(userInput);*/
-    int intNum = Integer.parseInt(userInput);
-    JOptionPane.showMessageDialog(null, intNum, "Your guess", JOptionPane.PLAIN_MESSAGE);
+    int intNum = Integer.parseInt(userInput); 
+    JOptionPane.showMessageDialog(null, intNum, "Your guess", JOptionPane.PLAIN_MESSAGE); 
     int random = minimum + (int) (Math.random() * maximum);
-    /*System.out.println(random);*/
+    /*System.out.println(random);*/ 
     JOptionPane.showMessageDialog (null, random, "The correct number", JOptionPane.PLAIN_MESSAGE);
+         System.exit(0);
+        int intNum = Integer.parseInt(stringVariable);
+         int random = minimum + (int) (Math.random() * maximum);
+        if(condition) {
+               your instructions ...
+     } else {
+              your instructions ...
+                  while (condition) {
+                  your instructions ...      }
+            /
+                  }
     
     
-    }
-
     
-}
